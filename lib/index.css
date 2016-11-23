@@ -1,7 +1,11 @@
 @import '../node_modules/@scratch-css/scratch/lib/index.css';
 
+@import './flexible.css';
+@import './standard.css';
+
 .row {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 -var(--gutter);
 
   & > .cell {
@@ -9,41 +13,35 @@
     flex: 1;
   }
 
-  &.without {
-    &.margin {
-      margin: 0;
+  &.to {
+    &.bottom { flex-direction: column }
+    &.left { flex-direction: row-reverse }
+    &.top { flex-direction: column-reverse }
+  }
+
+  &-no {
+    &-margin { margin: 0 }
+    &-padding > .cell { padding: 0 }
+    &-wrap { flex-wrap: nowrap }
+  }
+
+  &-small {
+    &-margin {
+      margin: 0 -var(--gutter-small)
     }
 
-    &.padding > .cell {
-      padding: 0
-    }
-
-    &.wrap {
-      flex-wrap: nowrap;
+    &-padding > .cell {
+      padding: 0 var(--gutter-small);
     }
   }
 
-  &.with {
-    &.small,
-    &.small.small-prio {
-      &.margin {
-        margin: 0 -var(--gutter-small);
-      }
-
-      &.padding > .cell {
-        padding: 0 var(--gutter-small);
-      }
+  &-big {
+    &-margin {
+      margin: 0 -var(--gutter-big);
     }
 
-    &.big,
-    &.big.big-prio {
-      &.margin {
-        margin: 0 -var(--gutter-small);
-      }
-
-      &.padding > .cell {
-        padding: 0 var(--gutter-small);
-      }
+    &-padding > .cell {
+      padding: 0 var(--gutter-big);
     }
   }
 }

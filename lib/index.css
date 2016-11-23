@@ -9,12 +9,14 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 -var(--gutter);
+  margin-left: -var(--gutter);
+  margin-right: -var(--gutter);
   width: auto;
   box-sizing: border-box;
 
   & > .cell {
-    padding: 0 var(--gutter);
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
     flex: 1;
   }
 
@@ -25,28 +27,40 @@
   }
 
   &.no {
-    &-margin { margin: 0 }
-    &-padding > .cell { padding: 0 }
-    &-wrap { flex-wrap: nowrap }
+    &-margin {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &-padding > .cell {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &-wrap {
+      flex-wrap: nowrap;
+    }
   }
 
   &.small {
     &-margin {
-      margin: 0 -var(--gutter-small)
+      margin-left: -var(--gutter-small);
+      margin-right: -var(--gutter-small);
     }
 
     &-padding > .cell {
-      padding: 0 var(--gutter-small);
+      padding-left: var(--gutter-small);
+      padding-right: var(--gutter-small);
     }
   }
 
   &.big {
     &-margin {
-      margin: 0 -var(--gutter-big);
+      margin-left: -var(--gutter-big);
+      margin-right: -var(--gutter-big);
     }
 
     &-padding > .cell {
-      padding: 0 var(--gutter-big);
+      padding-left: var(--gutter-big);
+      padding-right: var(--gutter-big);
     }
   }
 }

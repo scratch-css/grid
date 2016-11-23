@@ -1,19 +1,19 @@
-.row-standard {
+.standard {
   & > .cell {
-    &-2 { min-width: calc(100% / 2) }
-    &-3 { min-width: calc(100% / 3) }
-    &-4 { min-width: calc(100% / 4) }
-    &-5 { min-width: calc(100% / 5) }
-    &-6 { min-width: calc(100% / 6) }
-    &-7 { min-width: calc(100% / 7) }
-    &-8 { min-width: calc(100% / 8) }
-    &-9 { min-width: calc(100% / 9) }
-    &-10 { min-width: calc(100% / 10) }
-    &-11 { min-width: calc(100% / 11) }
-    &-12 { min-width: calc(100% / 12) }
-    &-13 { min-width: calc(100% / 13) }
-    &-14 { min-width: calc(100% / 14) }
-    &-15 { min-width: calc(100% / 15) }
-    &-16 { min-width: calc(100% / 16) }
+    &-2 { min-width: calc(100% / 2); max-width: calc(100% / 2) }
+    &-3 { min-width: calc(100% / 3); max-width: calc(100% / 3) }
+    &-4 { min-width: calc(100% / 4); max-width: calc(100% / 4) }
+    &-5 { min-width: calc(100% / 5); max-width: calc(100% / 5) }
+    &-6 { min-width: calc(100% / 6); max-width: calc(100% / 6) }
+    &-7 { min-width: calc(100% / 7); max-width: calc(100% / 7) }
+    &-8 { min-width: calc(100% / 8); max-width: calc(100% / 8) }
+    &-9 { min-width: calc(100% / 9); max-width: calc(100% / 9) }
+    &-10 { min-width: calc(100% / 10); max-width: calc(100% / 10) }
+    &-11 { min-width: calc(100% / 11); max-width: calc(100% / 11) }
+    &-12 { min-width: calc(100% / 12); max-width: calc(100% / 12) }
+    &-13 { min-width: calc(100% / 13); max-width: calc(100% / 13) }
+    &-14 { min-width: calc(100% / 14); max-width: calc(100% / 14) }
+    &-15 { min-width: calc(100% / 15); max-width: calc(100% / 15) }
+    &-16 { min-width: calc(100% / 16); max-width: calc(100% / 16) }
   }
 }

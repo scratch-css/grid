@@ -7,8 +7,11 @@
 
 .row {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   margin: 0 -var(--gutter);
+  width: auto;
+  box-sizing: border-box;
 
   & > .cell {
     padding: 0 var(--gutter);
@@ -21,13 +24,13 @@
     &.top { flex-direction: column-reverse }
   }
 
-  &-no {
+  &.no {
     &-margin { margin: 0 }
     &-padding > .cell { padding: 0 }
     &-wrap { flex-wrap: nowrap }
   }
 
-  &-small {
+  &.small {
     &-margin {
       margin: 0 -var(--gutter-small)
     }
@@ -37,7 +40,7 @@
     }
   }
 
-  &-big {
+  &.big {
     &-margin {
       margin: 0 -var(--gutter-big);
     }

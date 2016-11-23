@@ -1,0 +1,49 @@
+@import '../node_modules/@scratch-css/scratch/lib/index.css';
+
+.row {
+  display: flex;
+  margin: 0 -var(--gutter);
+
+  & > .cell {
+    padding: 0 var(--gutter);
+    flex: 1;
+  }
+
+  &.without {
+    &.margin {
+      margin: 0;
+    }
+
+    &.padding > .cell {
+      padding: 0
+    }
+
+    &.wrap {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &.with {
+    &.small,
+    &.small.small-prio {
+      &.margin {
+        margin: 0 -var(--gutter-small);
+      }
+
+      &.padding > .cell {
+        padding: 0 var(--gutter-small);
+      }
+    }
+
+    &.big,
+    &.big.big-prio {
+      &.margin {
+        margin: 0 -var(--gutter-small);
+      }
+
+      &.padding > .cell {
+        padding: 0 var(--gutter-small);
+      }
+    }
+  }
+}

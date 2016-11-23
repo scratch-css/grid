@@ -1,4 +1,5 @@
-@import '../node_modules/@scratch-css/scratch/lib/index.css';
+/* scratch framework */
+@import '../node_modules/@nikoloza/scratch/lib/config/index.css';
 
 @import './flexible.css';
 @import './standard.css';

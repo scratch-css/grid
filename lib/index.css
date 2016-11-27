@@ -21,9 +21,9 @@
   }
 
   &.to {
-    &.bottom { flex-direction: column }
-    &.left { flex-direction: row-reverse }
-    &.top { flex-direction: column-reverse }
+    &-bottom { flex-direction: column }
+    &-left { flex-direction: row-reverse }
+    &-top { flex-direction: column-reverse }
   }
 
   &.no {
@@ -37,6 +37,18 @@
     }
     &-wrap {
       flex-wrap: nowrap;
+    }
+  }
+
+  &.tiny {
+    &-margin {
+      margin-left: -var(--gutter-tiny);
+      margin-right: -var(--gutter-tiny);
+    }
+
+    &-padding > .cell {
+      padding-left: var(--gutter-tiny);
+      padding-right: var(--gutter-tiny);
     }
   }
 
@@ -61,6 +73,18 @@
     &-padding > .cell {
       padding-left: var(--gutter-big);
       padding-right: var(--gutter-big);
+    }
+  }
+
+  &.large {
+    &-margin {
+      margin-left: -var(--gutter-large);
+      margin-right: -var(--gutter-large);
+    }
+
+    &-padding > .cell {
+      padding-left: var(--gutter-large);
+      padding-right: var(--gutter-large);
     }
   }
 }

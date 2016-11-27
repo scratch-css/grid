@@ -1,4 +1,4 @@
-.standard {
+.row.standard {
   & > .cell {
     &-2 { min-width: calc(100% / 2); max-width: calc(100% / 2) }
     &-3 { min-width: calc(100% / 3); max-width: calc(100% / 3) }

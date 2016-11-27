@@ -20,69 +20,67 @@
     flex: 1;
   }
 
-  &.to {
+  &.direction {
     &-bottom { flex-direction: column }
     &-left { flex-direction: row-reverse }
     &-top { flex-direction: column-reverse }
   }
 
   &.no {
-    &-margin {
-      margin-left: 0;
-      margin-right: 0;
-    }
-    &-padding > .cell {
-      padding-left: 0;
-      padding-right: 0;
-    }
     &-wrap {
       flex-wrap: nowrap;
     }
   }
 
-  &.tiny {
-    &-margin {
+  &.margin {
+    &-none {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    &-tiny {
       margin-left: -var(--gutter-tiny);
       margin-right: -var(--gutter-tiny);
     }
 
-    &-padding > .cell {
-      padding-left: var(--gutter-tiny);
-      padding-right: var(--gutter-tiny);
-    }
-  }
-
-  &.small {
-    &-margin {
+    &-small {
       margin-left: -var(--gutter-small);
       margin-right: -var(--gutter-small);
     }
 
-    &-padding > .cell {
-      padding-left: var(--gutter-small);
-      padding-right: var(--gutter-small);
-    }
-  }
-
-  &.big {
-    &-margin {
+    &-big {
       margin-left: -var(--gutter-big);
       margin-right: -var(--gutter-big);
     }
 
-    &-padding > .cell {
-      padding-left: var(--gutter-big);
-      padding-right: var(--gutter-big);
-    }
-  }
-
-  &.large {
-    &-margin {
+    &-large {
       margin-left: -var(--gutter-large);
       margin-right: -var(--gutter-large);
     }
+  }
 
-    &-padding > .cell {
+  &.padding {
+    &-none > .cell {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    &-tiny > .cell {
+      padding-left: var(--gutter-tiny);
+      padding-right: var(--gutter-tiny);
+    }
+
+    &-small > .cell {
+      padding-left: var(--gutter-small);
+      padding-right: var(--gutter-small);
+    }
+
+    &-big > .cell {
+      padding-left: var(--gutter-big);
+      padding-right: var(--gutter-big);
+    }
+
+    &-large > .cell {
       padding-left: var(--gutter-large);
       padding-right: var(--gutter-large);
     }

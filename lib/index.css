@@ -1,6 +1,3 @@
-/* scratch library */
-@import '../node_modules/@nikoloza/scratch/lib/config/index.css';
-
 /* grid types */
 @import './flexible.css';
 @import './standard.css';

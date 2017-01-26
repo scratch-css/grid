@@ -1,6 +1,7 @@
 /* grid types */
 @import './flexible.css';
 @import './standard.css';
+@import './rown.css';
 
 .row {
   display: flex;
@@ -14,7 +15,8 @@
   & > .cell {
     padding-left: var(--gutter);
     padding-right: var(--gutter);
-    flex: 1;
+    flex: 1 0 auto;
+    box-sizing: border-box;
   }
 
   &.direction {

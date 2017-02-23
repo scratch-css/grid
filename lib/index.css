@@ -1,6 +1,7 @@
 /* grid types */
 @import './flexible.css';
 @import './standard.css';
+@import './rown.css';
 
 .row {
   display: flex;

@@ -16,26 +16,40 @@
     --cell-2-5: calc(100% / 5 * 2);
     --cell-3-5: calc(100% / 5 * 3);
     --cell-4-5: calc(100% / 5 * 4);
+
+    /* 6 cells */
+    --cell-1-6: calc(100% / 6 * 1);
+    --cell-2-6: calc(100% / 6 * 2);
+    --cell-3-6: calc(100% / 6 * 3);
+    --cell-4-6: calc(100% / 6 * 4);
+    --cell-5-6: calc(100% / 6 * 5);
 }
 
 .row.rown {
   & > .cell {
     /* 2 cells */
-    &-1-2 { min-width: var(--cell-1-2); max-width: var(--cell-1-2) }
+    &-1-2 { min-width: var(--cell-1-2); max-width: var(--cell-1-2); flex-basis: var(--cell-1-2); }
 
     /* 3 cells */
-    &-1-3 { min-width: var(--cell-1-3); max-width: var(--cell-1-3) }
-    &-2-3 { min-width: var(--cell-2-3); max-width: var(--cell-2-3) }
+    &-1-3 { min-width: var(--cell-1-3); max-width: var(--cell-1-3); flex-basis: var(--cell-1-3); }
+    &-2-3 { min-width: var(--cell-2-3); max-width: var(--cell-2-3); flex-basis: var(--cell-2-3); }
 
     /* 4 cells */
-    &-1-4 { min-width: var(--cell-1-4); max-width: var(--cell-1-4) }
-    &-2-4 { min-width: var(--cell-2-4); max-width: var(--cell-2-4) }
-    &-3-4 { min-width: var(--cell-3-4); max-width: var(--cell-3-4) }
+    &-1-4 { min-width: var(--cell-1-4); max-width: var(--cell-1-4); flex-basis: var(--cell-1-4); }
+    &-2-4 { min-width: var(--cell-2-4); max-width: var(--cell-2-4); flex-basis: var(--cell-2-4); }
+    &-3-4 { min-width: var(--cell-3-4); max-width: var(--cell-3-4); flex-basis: var(--cell-3-4); }
 
     /* 5 cells */
-    &-1-5 { min-width: var(--cell-1-5); max-width: var(--cell-1-5) }
-    &-2-5 { min-width: var(--cell-2-5); max-width: var(--cell-2-5) }
-    &-3-5 { min-width: var(--cell-3-5); max-width: var(--cell-3-5) }
-    &-4-5 { min-width: var(--cell-4-5); max-width: var(--cell-4-5) }
+    &-1-5 { min-width: var(--cell-1-5); max-width: var(--cell-1-5); flex-basis: var(--cell-1-5); }
+    &-2-5 { min-width: var(--cell-2-5); max-width: var(--cell-2-5); flex-basis: var(--cell-2-5); }
+    &-3-5 { min-width: var(--cell-3-5); max-width: var(--cell-3-5); flex-basis: var(--cell-3-5); }
+    &-4-5 { min-width: var(--cell-4-5); max-width: var(--cell-4-5); flex-basis: var(--cell-4-5); }
+
+    /* 6 cells */
+    &-1-6 { min-width: var(--cell-1-6); max-width: var(--cell-1-6); flex-basis: var(--cell-1-6); }
+    &-2-6 { min-width: var(--cell-2-6); max-width: var(--cell-2-6); flex-basis: var(--cell-2-6); }
+    &-3-6 { min-width: var(--cell-3-6); max-width: var(--cell-3-6); flex-basis: var(--cell-3-6); }
+    &-4-6 { min-width: var(--cell-4-6); max-width: var(--cell-4-6); flex-basis: var(--cell-4-6); }
+    &-5-6 { min-width: var(--cell-5-6); max-width: var(--cell-5-6); flex-basis: var(--cell-5-6); }
   }
 }

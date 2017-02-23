@@ -15,7 +15,8 @@
   & > .cell {
     padding-left: var(--gutter);
     padding-right: var(--gutter);
-    flex: 1;
+    flex: 1 0 auto;
+    box-sizing: border-box;
   }
 
   &.direction {

@@ -1,0 +1,125 @@
+.row.flexible {
+  /* screens */
+  @media (--bigger-than-screen-big) {
+    & > .cell-big {
+      &-1 { flex: 1; }
+      &-2 { flex: 2; }
+      &-3 { flex: 3; }
+      &-4 { flex: 4; }
+      &-5 { flex: 5; }
+      &-6 { flex: 6; }
+      &-7 { flex: 7; }
+      &-8 { flex: 8; }
+      &-9 { flex: 9; }
+      &-10 { flex: 10; }
+      &-11 { flex: 11; }
+      &-12 { flex: 12; }
+      &-13 { flex: 13; }
+      &-14 { flex: 14; }
+      &-15 { flex: 15; }
+      &-16 { flex: 16; }
+    }
+  }
+
+  @media (--bigger-than-screen-large) {
+    & > .cell-large {
+      &-1 { flex: 1; }
+      &-2 { flex: 2; }
+      &-3 { flex: 3; }
+      &-4 { flex: 4; }
+      &-5 { flex: 5; }
+      &-6 { flex: 6; }
+      &-7 { flex: 7; }
+      &-8 { flex: 8; }
+      &-9 { flex: 9; }
+      &-10 { flex: 10; }
+      &-11 { flex: 11; }
+      &-12 { flex: 12; }
+      &-13 { flex: 13; }
+      &-14 { flex: 14; }
+      &-15 { flex: 15; }
+      &-16 { flex: 16; }
+      &-17 { flex: 17; }
+      &-18 { flex: 18; }
+      &-19 { flex: 19; }
+      &-20 { flex: 20; }
+    }
+  }
+
+  @media (--smaller-than-screen-medium) {
+    & > .cell-medium {
+      &-1 { flex: 1; }
+      &-2 { flex: 2; }
+      &-3 { flex: 3; }
+      &-4 { flex: 4; }
+      &-5 { flex: 5; }
+      &-6 { flex: 6; }
+      &-7 { flex: 7; }
+      &-8 { flex: 8; }
+      &-9 { flex: 9; }
+      &-10 { flex: 10; }
+      &-11 { flex: 11; }
+      &-12 { flex: 12; }
+    }
+  }
+
+  @media (--smaller-than-screen-small) {
+    & > .cell-small {
+      &-1 { flex: 1; }
+      &-2 { flex: 2; }
+      &-3 { flex: 3; }
+      &-4 { flex: 4; }
+      &-5 { flex: 5; }
+      &-6 { flex: 6; }
+      &-7 { flex: 7; }
+      &-8 { flex: 8; }
+    }
+  }
+
+  @media (--smaller-than-screen-tiny) {
+    & > .cell-tiny {
+      &-1 { flex: 1; }
+      &-2 { flex: 2; }
+      &-3 { flex: 3; }
+      &-4 { flex: 4; }
+    }
+  }
+
+  /* tablets */
+  @media (--smaller-than-tablet-big) {
+    & > .cell-tablet-big {
+      &-1 { flex: 1; }
+      &-2 { flex: 2; }
+      &-3 { flex: 3; }
+      &-4 { flex: 4; }
+    }
+  }
+
+  @media (--smaller-than-tablet) {
+    & > .cell-tablet {
+      &-1 { flex: 1; }
+      &-2 { flex: 2; }
+      &-3 { flex: 3; }
+      &-4 { flex: 4; }
+    }
+  }
+
+  /* phones */
+  @media (--smaller-than-phone-big) {
+    & > .cell-phone-big {
+      &-1 { flex: 1; }
+      &-2 { flex: 2; }
+      &-3 { flex: 3; }
+      &-4 { flex: 4; }
+    }
+  }
+
+  @media (--smaller-than-phone) {
+    & > .cell-phone {
+      &-1 { flex: 1; }
+      &-2 { flex: 2; }
+      &-3 { flex: 3; }
+      &-4 { flex: 4; }
+    }
+  }
+}

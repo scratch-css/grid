@@ -3,6 +3,9 @@
 @import './standard.css';
 @import './rown.css';
 
+@import './flexible-responsive.css';
+@import './standard-responsive.css';
+
 .row {
   display: flex;
   flex-direction: row;

@@ -23,6 +23,69 @@
     --cell-3-6: calc(100% / 6 * 3);
     --cell-4-6: calc(100% / 6 * 4);
     --cell-5-6: calc(100% / 6 * 5);
+
+    /* 7 cells */
+    --cell-1-7: calc(100% / 7 * 1);
+    --cell-2-7: calc(100% / 7 * 2);
+    --cell-3-7: calc(100% / 7 * 3);
+    --cell-4-7: calc(100% / 7 * 4);
+    --cell-5-7: calc(100% / 7 * 5);
+    --cell-6-7: calc(100% / 7 * 6);
+
+    /* 8 cells */
+    --cell-1-8: calc(100% / 8 * 1);
+    --cell-2-8: calc(100% / 8 * 2);
+    --cell-3-8: calc(100% / 8 * 3);
+    --cell-4-8: calc(100% / 8 * 4);
+    --cell-5-8: calc(100% / 8 * 5);
+    --cell-6-8: calc(100% / 8 * 6);
+    --cell-7-8: calc(100% / 8 * 7);
+
+    /* 9 cells */
+    --cell-1-9: calc(100% / 9 * 1);
+    --cell-2-9: calc(100% / 9 * 2);
+    --cell-3-9: calc(100% / 9 * 3);
+    --cell-4-9: calc(100% / 9 * 4);
+    --cell-5-9: calc(100% / 9 * 5);
+    --cell-6-9: calc(100% / 9 * 6);
+    --cell-7-9: calc(100% / 9 * 7);
+    --cell-8-9: calc(100% / 9 * 8);
+
+    /* 10 cells */
+    --cell-1-10: calc(100% / 10 * 1);
+    --cell-2-10: calc(100% / 10 * 2);
+    --cell-3-10: calc(100% / 10 * 3);
+    --cell-4-10: calc(100% / 10 * 4);
+    --cell-5-10: calc(100% / 10 * 5);
+    --cell-6-10: calc(100% / 10 * 6);
+    --cell-7-10: calc(100% / 10 * 7);
+    --cell-8-10: calc(100% / 10 * 8);
+    --cell-9-10: calc(100% / 10 * 9);
+
+    /* 11 cells */
+    --cell-1-11: calc(100% / 11 * 1);
+    --cell-2-11: calc(100% / 11 * 2);
+    --cell-3-11: calc(100% / 11 * 3);
+    --cell-4-11: calc(100% / 11 * 4);
+    --cell-5-11: calc(100% / 11 * 5);
+    --cell-6-11: calc(100% / 11 * 6);
+    --cell-7-11: calc(100% / 11 * 7);
+    --cell-8-11: calc(100% / 11 * 8);
+    --cell-9-11: calc(100% / 11 * 9);
+    --cell-10-11: calc(100% / 11 * 10);
+
+    /* 12 cells */
+    --cell-1-12: calc(100% / 12 * 1);
+    --cell-2-12: calc(100% / 12 * 2);
+    --cell-3-12: calc(100% / 12 * 3);
+    --cell-4-12: calc(100% / 12 * 4);
+    --cell-5-12: calc(100% / 12 * 5);
+    --cell-6-12: calc(100% / 12 * 6);
+    --cell-7-12: calc(100% / 12 * 7);
+    --cell-8-12: calc(100% / 12 * 8);
+    --cell-9-12: calc(100% / 12 * 9);
+    --cell-10-12: calc(100% / 12 * 10);
+    --cell-11-12: calc(100% / 12 * 11);
 }
 
 .row.rown {
@@ -51,5 +114,68 @@
     &-3-6 { min-width: var(--cell-3-6); max-width: var(--cell-3-6); flex-basis: var(--cell-3-6); }
     &-4-6 { min-width: var(--cell-4-6); max-width: var(--cell-4-6); flex-basis: var(--cell-4-6); }
     &-5-6 { min-width: var(--cell-5-6); max-width: var(--cell-5-6); flex-basis: var(--cell-5-6); }
+
+    /* 7 cells */
+    &-1-7 { min-width: var(--cell-1-7); max-width: var(--cell-1-7); flex-basis: var(--cell-1-7); }
+    &-2-7 { min-width: var(--cell-2-7); max-width: var(--cell-2-7); flex-basis: var(--cell-2-7); }
+    &-3-7 { min-width: var(--cell-3-7); max-width: var(--cell-3-7); flex-basis: var(--cell-3-7); }
+    &-4-7 { min-width: var(--cell-4-7); max-width: var(--cell-4-7); flex-basis: var(--cell-4-7); }
+    &-5-7 { min-width: var(--cell-5-7); max-width: var(--cell-5-7); flex-basis: var(--cell-5-7); }
+    &-6-7 { min-width: var(--cell-6-7); max-width: var(--cell-6-7); flex-basis: var(--cell-6-7); }
+
+    /* 8 cells */
+    &-1-8 { min-width: var(--cell-1-8); max-width: var(--cell-1-8); flex-basis: var(--cell-1-8); }
+    &-2-8 { min-width: var(--cell-2-8); max-width: var(--cell-2-8); flex-basis: var(--cell-2-8); }
+    &-3-8 { min-width: var(--cell-3-8); max-width: var(--cell-3-8); flex-basis: var(--cell-3-8); }
+    &-4-8 { min-width: var(--cell-4-8); max-width: var(--cell-4-8); flex-basis: var(--cell-4-8); }
+    &-5-8 { min-width: var(--cell-5-8); max-width: var(--cell-5-8); flex-basis: var(--cell-5-8); }
+    &-6-8 { min-width: var(--cell-6-8); max-width: var(--cell-6-8); flex-basis: var(--cell-6-8); }
+    &-7-8 { min-width: var(--cell-7-8); max-width: var(--cell-7-8); flex-basis: var(--cell-7-8); }
+
+    /* 9 cells */
+    &-1-9 { min-width: var(--cell-1-9); max-width: var(--cell-1-9); flex-basis: var(--cell-1-9); }
+    &-2-9 { min-width: var(--cell-2-9); max-width: var(--cell-2-9); flex-basis: var(--cell-2-9); }
+    &-3-9 { min-width: var(--cell-3-9); max-width: var(--cell-3-9); flex-basis: var(--cell-3-9); }
+    &-4-9 { min-width: var(--cell-4-9); max-width: var(--cell-4-9); flex-basis: var(--cell-4-9); }
+    &-5-9 { min-width: var(--cell-5-9); max-width: var(--cell-5-9); flex-basis: var(--cell-5-9); }
+    &-6-9 { min-width: var(--cell-6-9); max-width: var(--cell-6-9); flex-basis: var(--cell-6-9); }
+    &-7-9 { min-width: var(--cell-7-9); max-width: var(--cell-7-9); flex-basis: var(--cell-7-9); }
+    &-8-9 { min-width: var(--cell-8-9); max-width: var(--cell-8-9); flex-basis: var(--cell-8-9); }
+
+    /* 10 cells */
+    &-1-10 { min-width: var(--cell-1-10); max-width: var(--cell-1-10); flex-basis: var(--cell-1-10); }
+    &-2-10 { min-width: var(--cell-2-10); max-width: var(--cell-2-10); flex-basis: var(--cell-2-10); }
+    &-3-10 { min-width: var(--cell-3-10); max-width: var(--cell-3-10); flex-basis: var(--cell-3-10); }
+    &-4-10 { min-width: var(--cell-4-10); max-width: var(--cell-4-10); flex-basis: var(--cell-4-10); }
+    &-5-10 { min-width: var(--cell-5-10); max-width: var(--cell-5-10); flex-basis: var(--cell-5-10); }
+    &-6-10 { min-width: var(--cell-6-10); max-width: var(--cell-6-10); flex-basis: var(--cell-6-10); }
+    &-7-10 { min-width: var(--cell-7-10); max-width: var(--cell-7-10); flex-basis: var(--cell-7-10); }
+    &-8-10 { min-width: var(--cell-8-10); max-width: var(--cell-8-10); flex-basis: var(--cell-8-10); }
+    &-9-10 { min-width: var(--cell-9-10); max-width: var(--cell-9-10); flex-basis: var(--cell-9-10); }
+
+    /* 11 cells */
+    &-1-11 { min-width: var(--cell-1-11); max-width: var(--cell-1-11); flex-basis: var(--cell-1-11); }
+    &-2-11 { min-width: var(--cell-2-11); max-width: var(--cell-2-11); flex-basis: var(--cell-2-11); }
+    &-3-11 { min-width: var(--cell-3-11); max-width: var(--cell-3-11); flex-basis: var(--cell-3-11); }
+    &-4-11 { min-width: var(--cell-4-11); max-width: var(--cell-4-11); flex-basis: var(--cell-4-11); }
+    &-5-11 { min-width: var(--cell-5-11); max-width: var(--cell-5-11); flex-basis: var(--cell-5-11); }
+    &-6-11 { min-width: var(--cell-6-11); max-width: var(--cell-6-11); flex-basis: var(--cell-6-11); }
+    &-7-11 { min-width: var(--cell-7-11); max-width: var(--cell-7-11); flex-basis: var(--cell-7-11); }
+    &-8-11 { min-width: var(--cell-8-11); max-width: var(--cell-8-11); flex-basis: var(--cell-8-11); }
+    &-9-11 { min-width: var(--cell-9-11); max-width: var(--cell-9-11); flex-basis: var(--cell-9-11); }
+    &-10-11 { min-width: var(--cell-10-11); max-width: var(--cell-10-11); flex-basis: var(--cell-10-11); }
+
+    /* 12 cells */
+    &-1-12 { min-width: var(--cell-1-12); max-width: var(--cell-1-12); flex-basis: var(--cell-1-12); }
+    &-2-12 { min-width: var(--cell-2-12); max-width: var(--cell-2-12); flex-basis: var(--cell-2-12); }
+    &-3-12 { min-width: var(--cell-3-12); max-width: var(--cell-3-12); flex-basis: var(--cell-3-12); }
+    &-4-12 { min-width: var(--cell-4-12); max-width: var(--cell-4-12); flex-basis: var(--cell-4-12); }
+    &-5-12 { min-width: var(--cell-5-12); max-width: var(--cell-5-12); flex-basis: var(--cell-5-12); }
+    &-6-12 { min-width: var(--cell-6-12); max-width: var(--cell-6-12); flex-basis: var(--cell-6-12); }
+    &-7-12 { min-width: var(--cell-7-12); max-width: var(--cell-7-12); flex-basis: var(--cell-7-12); }
+    &-8-12 { min-width: var(--cell-8-12); max-width: var(--cell-8-12); flex-basis: var(--cell-8-12); }
+    &-9-12 { min-width: var(--cell-9-12); max-width: var(--cell-9-12); flex-basis: var(--cell-9-12); }
+    &-10-12 { min-width: var(--cell-10-12); max-width: var(--cell-10-12); flex-basis: var(--cell-10-12); }
+    &-11-12 { min-width: var(--cell-11-12); max-width: var(--cell-11-12); flex-basis: var(--cell-11-12); }
   }
 }
